@@ -1,0 +1,12 @@
+{
+  "name": "testing-onebit",
+  "version": "1.0.0",
+  "description": "Express server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0"
+  }
+}
