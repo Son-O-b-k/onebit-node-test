@@ -11,6 +11,9 @@ RUN npm install --production
 # Copy the rest of the application
 COPY . .
 
+# Build the application
+RUN npm run build
+
 # Set PORT environment variable to 3000
 ENV PORT=3000
 
