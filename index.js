@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 
 app.get('/env', (req, res) => {
   res.json(process.env);
-
+});
 
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
